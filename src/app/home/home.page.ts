@@ -1,4 +1,10 @@
 import { Component } from '@angular/core';
+import 'capacitor-plugin-app-tracking-transparency'; // only if you want web support
+
+import {
+  AppTrackingTransparency,
+  AppTrackingStatusResponse,
+} from 'capacitor-plugin-app-tracking-transparency';
 
 @Component({
   selector: 'app-home',
@@ -6,7 +12,23 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-
   constructor() {}
 
+  public async getStatus(): Promise<AppTrackingStatusResponse> {
+    const response = await AppTrackingTransparency.getStatus();
+
+    console.log(response);
+    // { status: 'authorized' } for example
+
+    return response;
+  }
+
+  public async requestPermission(): Promise<AppTrackingStatusResponse> {
+    const response = await AppTrackingTransparency.requestPermission();
+
+    console.log(response);
+    // { status: 'authorized' } for example
+
+    return response;
+  }
 }

@@ -1,0 +1,7 @@
+{
+  "name": "AppTrackingTransparencyDemoApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

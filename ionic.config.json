@@ -1,0 +1,7 @@
+{
+  "name": "capacitor-plugin-app-tracking-transparency-demo-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

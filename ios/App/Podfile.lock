@@ -8,7 +8,7 @@ PODS:
     - Capacitor
   - CapacitorKeyboard (6.0.0):
     - Capacitor
-  - CapacitorPluginAppTrackingTransparency (2.0.4):
+  - CapacitorPluginAppTrackingTransparency (2.0.5):
     - Capacitor
   - CapacitorStatusBar (6.0.0):
     - Capacitor
@@ -44,7 +44,7 @@ SPEC CHECKSUMS:
   CapacitorCordova: 8c4bfdf69368512e85b1d8b724dd7546abeb30af
   CapacitorHaptics: 9ebc9363f0e9b8eb4295088a0b474530acf1859b
   CapacitorKeyboard: deacbd09d8d1029c3681197fb05d206b721d5f73
-  CapacitorPluginAppTrackingTransparency: f226ae1d82bcd2b93ea5f5c123f6bda3c39cb5e2
+  CapacitorPluginAppTrackingTransparency: 2a2792623a5a72795f2e8f9ab3f1147573732fd8
   CapacitorStatusBar: 2e4369f99166125435641b1908d05f561eaba6f6
 
 PODFILE CHECKSUM: 3b9d8468b20e2fded8e30619c68f56b8701f9198
